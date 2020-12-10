@@ -14,5 +14,5 @@
 #   Test Package:              'Ctrl + Shift + T'
 
 DOC <- function() {
-  print("Hello, world! I like DOC")
+  print("Hello, world! I like DOC lots")
 }
