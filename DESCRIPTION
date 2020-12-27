@@ -1,11 +1,17 @@
 Package: opticalWQ
 Type: Package
-Title: What the Package Does (Title Case)
+Title: opticalWQ (a Package for processing high-freq data from optical sensors)
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Author: Kieran Khamis
+Maintainer: Kieran Khamis <k.khamis@bham.ac.uk>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+Imports: tidyverse,
+         lubridate,
+         ChemoSpec,
+         magrittr,
+         janitor
+RoxygenNote: 7.1.1
